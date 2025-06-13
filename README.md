@@ -1,6 +1,6 @@
 # Stack y Lista Enlazada en C
 
-Este proyecto implementa dos estructuras de datos fundamentales en C: **una pila (stack)** y **una lista enlazada (linked list)**. 
+Este proyecto implementa dos estructuras de datos fundamentales en C: **una pila (stack)** y **una lista enlazada (linked_list)**. 
 Ambas estructuras son probadas a través de casos ya preestablecidos en el `main.c` dado para ambos problemas.
 
 ---
@@ -11,9 +11,9 @@ Ambas estructuras son probadas a través de casos ya preestablecidos en el `main
   Contiene las funciones de prueba para ambas estructuras (`test_stack` y `test_linked_list`). Ejecuta ambos tests al correr el programa.
 
 - `stack.c` / `stack.h`  
-  Implementación de una pila con un arreglo estático de tamaño fijo (`MAX_STACK_SIZE`). Soporta operaciones clásicas como `push`, `pop`, verificar si está vacía o llena, etc.
+  Implementación de una pila con un arreglo estático de tamaño fijo (`MAX_STACK_SIZE`). Soporta ooeraciones clásicas `push`, `pop`, para verificar si está vacía o llena, etc.
 
-- `linkedlist.c` / `linkedlist.h`  
+- `linked_list.c` / `linked_list.h`  
   Implementación de una lista enlazada simple. Permite insertar elementos al inicio o al final, eliminar elementos, verificar si un dato existe, obtener el tamaño de la lista e imprimirla.
 
 ---
@@ -30,6 +30,7 @@ El programa ejecutable corre los siguientes tests al iniciar:
 ## Compilación
 
 ### Compilar todo
+Note que aunque para el problema 1 se requiere solamente lo del `stack.c` y para el problema 2 se requiere solamente lo de `linked_list.c`, se deben compilar ambos archivos juntos para el correcto funcionamiento de `main.c`. 
 ```bash
 gcc -Wall main.c stack.c linkedlist.c -o programa
 valgrind ./programa
