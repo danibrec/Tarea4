@@ -22,7 +22,7 @@ Ambas estructuras son probadas a través de casos ya preestablecidos en el `main
 
 El programa ejecutable corre los siguientes tests al iniciar:
 
-1. **Prueba de Pila:** Agrega 100 elementos, intenta sobrepasar el límite, extrae algunos, vacía la pila y prueba casos borde.
+1. **Prueba de Pila:** Agrega 100 elementos, intenta sobrepasar el límite, extrae algunos, vacía la pila y prueba casos límite.
 2. **Prueba de Lista Enlazada:** Inserta elementos, los elimina, verifica existencia y muestra el estado de la lista.
 
 ---
